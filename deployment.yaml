@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: finance-app
-          image: docker pull ghcr.io/italo-jsm/finance:c4017a88eaae1993c8e3ddcc8bdb1a77fd400370
+          image: docker pull ghcr.io/italo-jsm/finance:8592e7e991448f5a6cf200bfa1907831dc55e589
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
