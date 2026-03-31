@@ -7,7 +7,7 @@ metadata:
 spec:
   ingressClassName: traefik
   rules:
-    - host: finance.italomariano.dev.br
+    - host: finance-api.italomariano.dev.br
       http:
         paths:
           - path: /
