@@ -18,7 +18,7 @@ spec:
         - name: ghcr-secret
       containers:
         - name: finance-app
-          image: "ghcr.io/italo-jsm/finance:3c69996dd4d99779e30baf06f63755a81029e0ee"
+          image: "ghcr.io/italo-jsm/finance:914666d7c1e4d468643c62ee81c8b94e260792b4"
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
